@@ -16,11 +16,11 @@ const switchButton = document.querySelectorAll('.switchBtn');
     let vapourInterval;
 
     function startVapoursAndBubbles() {
-        const coil = document.querySelector('.circle');
+        const circle = document.querySelector('.circle');
 
         vapourInterval = setInterval(() => {
-            createEffect(coil, 'vapour');
-            createEffect(coil, 'bubble');
+            createEffect(circle, 'vapour');
+            createEffect(circle, 'bubble');
         }, 100); 
     }
 
