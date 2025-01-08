@@ -6,7 +6,7 @@ const switchButton = document.querySelectorAll('.switchBtn');
             button.classList.toggle('active');
 
             if (button.classList.contains('active')) {
-                startVapoursAndBubbles();
+                setTimeout(startVapoursAndBubbles, 3000);
             } else {
                 stopVapoursAndBubbles();
             }
