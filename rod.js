@@ -21,7 +21,7 @@ const switchButton = document.querySelectorAll('.switchBtn');
         vapourInterval = setInterval(() => {
             createEffect(coil, 'vapour');
             createEffect(coil, 'bubble');
-        }, 500); 
+        }, 100); 
     }
 
     function stopVapoursAndBubbles() {

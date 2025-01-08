@@ -96,7 +96,8 @@ body {
 } .cord {
     width: 5px;
     height: 52px;
-    background: linear-gradient(90deg, #444 50%, #888 50%);
+    /* background: linear-gradient(90deg, #444 50%, #888 50%); */
+    background-color: #000;
     background-size: 10px 10px;
     background-repeat: repeat;
     position: absolute;
@@ -204,7 +205,8 @@ position: relative;
 .wire2{
     width: 200px;
     height: 5px;
-    background: linear-gradient(90deg, #444 50%, #888 50%);
+    /* background: linear-gradient(90deg, #444 50%, #888 50%); */
+    background-color: #000;
     background-size: 10px 10px;
     top: -343px;
     right: 136px;
@@ -224,7 +226,8 @@ position: relative;
 .wire3{
     width: 5px;
     height: 75px;
-    background: linear-gradient(90deg, #444 50%, #888 50%);
+    /* background: linear-gradient(90deg, #444 50%, #888 50%); */
+    background-color: #000;
     background-size: 10px 10px;
     top: -121px;
     right: -212px;
